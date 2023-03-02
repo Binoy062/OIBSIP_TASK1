@@ -1,0 +1,59 @@
+body {
+  background: rgb(0, 153, 255);
+}
+.container {
+  text-align: center;
+  margin-top: 25px;
+  
+}
+table {
+  margin-top: 15px; 
+}
+button {
+  font-style: calc();
+  font-size: 40px;
+  margin: 5px;
+  padding: 10px;
+  background: rgb(143, 205, 247);
+  height: 80px;
+  width: 110px;
+  border: none;
+  border-radius: 10px;
+
+}
+
+.num{
+  background-color: rgb(192, 222, 239);
+}
+
+.op{
+  background: rgb(134, 189, 216);
+}
+button:hover {
+  color: white;
+  background-color: rgb(114, 183, 226);
+  box-shadow: 5px 6px white;
+  animation: alternate-reverse;
+}
+
+input {
+  font-size: 35px;
+  text-decoration-style: double;
+  height: 90px;
+  width: 450px;
+  padding: 10px;
+  margin: 5px;
+  border: 7px solid double;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(189, 206, 235);
+}
+.calc {
+  background-color: #fcfefe;
+  padding: 23px;
+  display: inline-block;
+  border-radius: 40px;
+  height: 620px;
+  width: 495px;
+  
+}
